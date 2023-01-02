@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./css/home.css"> -->
+    <link rel="stylesheet" href="./css/submit.css">
+    <!-- <script defer src="https://demo-chatify.herokuapp.com/"></script> -->
+    <!-- <script defer src="http://localhost:8000/socket.io/socket.io.js"></script> -->
+    <link rel="stylesheet" href="./home.html">
+ <link rel="stylesheet" href="./check.js">
+    <!-- <script defer src="./js/client.js"></script> -->
+    <title>Login</title>
+</head>
+<body>
+    <nav>
+        <img class="logo" src="https://cryptologos.cc/logos/chatcoin-chat-logo.svg?v=023" alt="logo">
+    </nav>  
+    <h1> Welcome to chat app</h1>
+
+    <h2 >Sign in</h2>
+    <!-- <div class="container">
+        <div class="siggn">
+            <label class="labName" for="name">Name</label>
+            <input type="text"  name="name" id="name" placeholder="Enter your name">
+        </div>
+        <div class="submit">
+        <button class="gg">Submit</button>
+        </div>
+    </div> -->
+    <div class="main">
+    <div class="container">
+        <div class="siggn">
+            
+            <label for="myText" id="myTextLabel" >Name</label>
+            <input type="text" id="myText"  style="font-size:25px;border-radius: 16px;">
+            
+        </div>
+        <button type="submit" onclick="myFunction()">Try it</button>
+        <!-- <button id="btn">< href="./index.html" onclick="check()">
+            Submit
+            <!-- <div class="check-box">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                    <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                </svg>
+            </div> -->
+        <!-- </a> -->
+       <!-- </button>  -->
+
+       <!-- <a href="#" onclick="onCheck()" >Lets Go</a> -->
+   
+      
+    </div>
+    
+
+</div>
+    <!-- <script type="text/javascript">
+        const btn = document.querySelector("#btn");
+        const btnText = document.querySelector("#btnText");
+
+        btn.onclick = () => {
+            btnText.innerHTML = "Thanks";
+            btn.classList.add("active");
+        };
+    
+        </script> -->
+        <script>
+            // let names='null';
+            // // Here the value is stored in new variable x 
+            // function onCheck() {
+            //     var x = document.getElementById("nameip").value;
+            //     document.getElementById("demo").innerHTML = x;
+            //     names=x;
+            // }
+          
+            function myFunction() {
+
+         const x = document.getElementById("myText").value;
+                localStorage.setItem('names',x);
+
+                window.location.href="home.html";
+}
+
+            </script>
+    
+</body>
+</html>

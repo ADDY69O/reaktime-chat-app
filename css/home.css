@@ -1,0 +1,82 @@
+    body{
+        height: 100vh;
+        /* background-image: linear-gradient(rgb(137, 210, 255),rgb(224, 224, 224)); */
+        background-color: #e3ebfe;
+    }
+    .logo{
+            
+        display: block;
+        margin: auto;
+
+        height: 50px;
+        width: 50px;
+    }
+
+
+
+    h1{
+        margin-top: 12px;
+        text-align: center;
+        margin: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 25px;
+    }
+
+    .container{
+        margin-top: 80px;
+        height: 200px;
+        width: 300px;
+        background-color: #ECFFF8;
+        margin: auto;
+        border-radius: 25px;
+        font-size: larger;
+    }
+
+
+
+    #name{
+        background-color: aqua;
+        border-radius: 12px;
+        font-size: 12px;
+        height: 25px;
+    }
+
+    h2{
+        margin-top: 12px;
+        text-align: center;
+        margin: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 25px;
+    color: rgb(1, 59, 183);
+    }
+    .siggn{
+        margin-top:10vh;
+        margin: auto;
+        text-align: center;
+        margin-top: 73px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+    }
+    #name{
+        font-size: 15px;
+    }
+    .submit{
+        margin: auto;
+        text-align: center;
+
+
+    }
+    .gg{
+        width: 70px;
+        height: 41px;
+        margin-top: 20px;
+        border-radius: 31px;
+        font-size: 15px;
+        cursor: pointer;
+        background-color: #2d2dfc;
+    }
+    a{
+        text-decoration: none;
+    }
